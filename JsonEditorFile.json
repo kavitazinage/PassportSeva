@@ -1,0 +1,212 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "passport seva",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.YesIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NoIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "PassportSevaIntent",
+                    "slots": [
+                        {
+                            "name": "PassportFAQ",
+                            "type": "LIST_OF_FAQ"
+                        }
+                    ],
+                    "samples": [
+                        "what is the definition of {PassportFAQ}",
+                        "where is {PassportFAQ} location",
+                        "where is {PassportFAQ} ",
+                        "how to {PassportFAQ}",
+                        "How do I {PassportFAQ}",
+                        "How can I {PassportFAQ}",
+                        "What will be the {PassportFAQ}",
+                        "What would be the {PassportFAQ}",
+                        "How long {PassportFAQ}",
+                        "What is the definition {PassportFAQ}",
+                        "What are the {PassportFAQ}",
+                        "AMAZON.NoIntent No",
+                        "AMAZON.YesIntent Yes",
+                        "What is {PassportFAQ}",
+                        "I want to know about {PassportFAQ}",
+                        "Tell me about {PassportFAQ}",
+                        "{PassportFAQ}"
+                    ]
+                },
+                {
+                    "name": "AMAZON.PauseIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ResumeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.MoreIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateSettingsIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NextIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PageUpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PageDownIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PreviousIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollRightIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollDownIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollLeftIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollUpIntent",
+                    "samples": []
+                }
+            ],
+            "types": [
+                {
+                    "name": "LIST_OF_FAQ",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "fee",
+                                "synonyms": [
+                                    "Amount to pay"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Passport office",
+                                "synonyms": [
+                                    "PO"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Passport Seva Kendra",
+                                "synonyms": [
+                                    "PSK"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "apply passport",
+                                "synonyms": [
+                                    "apply"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "validity of a minors passport",
+                                "synonyms": [
+                                    "validity for minors",
+                                    "validity of a minors"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Passport validity",
+                                "synonyms": [
+                                    "Passport valid"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": " Short Validity Passport",
+                                "synonyms": [
+                                    "SVP"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "alias name"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "damaged passport"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Police Verification"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "contact"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "types of passport"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "passport services",
+                                "synonyms": [
+                                    "passport service",
+                                    "services",
+                                    "passport service"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
